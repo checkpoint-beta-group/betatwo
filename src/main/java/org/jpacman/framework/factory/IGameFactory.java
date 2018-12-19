@@ -28,17 +28,17 @@ public interface IGameFactory {
 	 * @return A new board of requested width and height.
 	 */
 	Board makeBoard(int w, int h);
-
+	
 	/**
 	 * @return A newly created player.
 	 */
 	Player makePlayer();
-
+	
 	/**
 	 * @return A newly created ghost.
 	 */
 	Ghost makeGhost();
-
+	
 	/**
 	 * @return A newly created food sprite.
 	 */
