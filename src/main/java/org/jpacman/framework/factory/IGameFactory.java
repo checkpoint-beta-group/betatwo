@@ -20,7 +20,7 @@ public interface IGameFactory {
 	 * @return A newly created game.
 	 */
 	Game makeGame();
-	
+
 	/**
 	 * Create a new board of given width and height.
 	 * @param w Width of the board
