@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.2.5" timestamp="2012-02-17T10:15:18.868">
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\view\Animator.java">
+<violation beginline="70" endline="70" begincolumn="26" endcolumn="28" rule="UncommentedEmptyMethod" ruleset="Design Rules" package="org.jpacman.framework.view" class="Animator" method="doTick" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#UncommentedEmptyMethod" priority="3">
+Document empty method
+</violation>
+</file>
+</pmd>

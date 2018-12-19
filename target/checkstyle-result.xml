@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.4">
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\controller\AbstractGhostMover.java">
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\controller\IController.java">
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\controller\RandomGhostMover.java">
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\factory\DefaultGameFactory.java">
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\factory\FactoryException.java">
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\factory\IGameFactory.java">
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\factory\MapParser.java">
+<error line="57" column="5" severity="warning" message="Method length is 28 lines (max allowed is 20)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+<error line="106" column="5" severity="warning" message="Method length is 23 lines (max allowed is 20)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\model\Board.java">
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\model\Direction.java">
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\model\Food.java">
+<error line="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="11" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="15" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\model\Game.java">
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\model\Ghost.java">
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\model\IBoardInspector.java">
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\model\IGameInteractor.java">
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\model\IPointInspector.java">
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\model\Player.java">
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\model\PointManager.java">
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\model\Sprite.java">
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\model\Tile.java">
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\model\Wall.java">
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\ui\ButtonPanel.java">
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\ui\IButtonEvents.java">
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\ui\IDisposable.java">
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\ui\IKeyboardEvents.java">
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\ui\MainUI.java">
+<error line="60" column="5" severity="warning" message="Method length is 39 lines (max allowed is 20)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\ui\PacmanInteraction.java">
+<error line="60" column="31" severity="warning" message="&apos;:&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="70" column="31" severity="warning" message="&apos;:&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="79" column="27" severity="warning" message="&apos;:&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\ui\PacmanKeyListener.java">
+<error line="33" column="5" severity="warning" message="Method length is 35 lines (max allowed is 20)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\ui\PointsPanel.java">
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\view\Animator.java">
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\view\BoardView.java">
+<error line="162" column="5" severity="warning" message="Method length is 25 lines (max allowed is 20)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+<error line="204" column="5" severity="warning" message="Method length is 27 lines (max allowed is 20)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\view\ImageLoader.java">
+<error line="64" column="5" severity="warning" message="Method length is 21 lines (max allowed is 20)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\controller\AbstractGhostMover.java">
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\controller\IController.java">
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\controller\RandomGhostMover.java">
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\factory\DefaultGameFactory.java">
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\factory\FactoryException.java">
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\factory\IGameFactory.java">
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\factory\MapParser.java">
+<error line="57" column="5" severity="warning" message="Method length is 28 lines (max allowed is 20)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+<error line="106" column="5" severity="warning" message="Method length is 23 lines (max allowed is 20)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\model\Board.java">
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\model\Direction.java">
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\model\Food.java">
+<error line="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="11" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="15" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\model\Game.java">
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\model\Ghost.java">
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\model\IBoardInspector.java">
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\model\IGameInteractor.java">
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\model\IPointInspector.java">
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\model\Player.java">
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\model\PointManager.java">
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\model\Sprite.java">
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\model\Tile.java">
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\model\Wall.java">
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\ui\ButtonPanel.java">
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\ui\IButtonEvents.java">
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\ui\IDisposable.java">
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\ui\IKeyboardEvents.java">
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\ui\MainUI.java">
+<error line="60" column="5" severity="warning" message="Method length is 39 lines (max allowed is 20)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\ui\PacmanInteraction.java">
+<error line="60" column="31" severity="warning" message="&apos;:&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="70" column="31" severity="warning" message="&apos;:&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="79" column="27" severity="warning" message="&apos;:&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\ui\PacmanKeyListener.java">
+<error line="33" column="5" severity="warning" message="Method length is 35 lines (max allowed is 20)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\ui\PointsPanel.java">
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\view\Animator.java">
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\view\BoardView.java">
+<error line="162" column="5" severity="warning" message="Method length is 25 lines (max allowed is 20)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+<error line="204" column="5" severity="warning" message="Method length is 27 lines (max allowed is 20)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+</file>
+<file name="C:\Users\Raies Saboerali\Documents\Colleges\TI2210 Softwarekwaliteit &amp; Testen\jpacman-framework-5.0.1\src\main\java\org\jpacman\framework\view\ImageLoader.java">
+<error line="64" column="5" severity="warning" message="Method length is 21 lines (max allowed is 20)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+</file>
+</checkstyle>

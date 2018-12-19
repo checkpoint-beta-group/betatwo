@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<rss version="0.91">
+  <channel>
+    <title>jpacman-framework - Checkstyle report</title>
+    <link>http://www.st.ewi.tudelft.nl/~arie/</link>
+    <description>jpacman-framework - Checkstyle report</description>
+    <language>en-us</language>
+    <copyright>&#169;2003 - 2012 Software Engineering Research Group, Delft University of Technology, The Netherlands</copyright>
+    <item>
+      <title>File: 31,
+             Errors: 0,
+             Warnings: 26,
+             Infos: 0
+      </title>
+            <link>http://www.st.ewi.tudelft.nl/~arie//checkstyle.html</link>
+      <description>
+        <p>Click <a href="http://www.st.ewi.tudelft.nl/~arie//checkstyle.html">here</a> for the full Checkstyle report.</p>
+
+        <table summary="Files" boder="1">
+          <thead>
+            <tr>
+              <th>Files</th>
+              <th style="width:30px;"><abbr title="Info">I</abbr></th>
+              <th style="width:30px;"><abbr title="Warning">W</abbr></th>
+              <th style="width:30px;"><abbr title="Error">E</abbr></th>
+            </tr>
+          </thead>
+          <tbody>
+                          <tr>
+                <td>
+                  <a href="http://www.st.ewi.tudelft.nl/~arie//checkstyle.html#org.jpacman.framework.ui.MainUI.java">org/jpacman/framework/ui/MainUI.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  2
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.st.ewi.tudelft.nl/~arie//checkstyle.html#org.jpacman.framework.model.Tile.java">org/jpacman/framework/model/Tile.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.st.ewi.tudelft.nl/~arie//checkstyle.html#org.jpacman.framework.model.Wall.java">org/jpacman/framework/model/Wall.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.st.ewi.tudelft.nl/~arie//checkstyle.html#org.jpacman.framework.model.IPointInspector.java">org/jpacman/framework/model/IPointInspector.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.st.ewi.tudelft.nl/~arie//checkstyle.html#org.jpacman.framework.model.PointManager.java">org/jpacman/framework/model/PointManager.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.st.ewi.tudelft.nl/~arie//checkstyle.html#org.jpacman.framework.model.Food.java">org/jpacman/framework/model/Food.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  6
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.st.ewi.tudelft.nl/~arie//checkstyle.html#org.jpacman.framework.ui.PacmanKeyListener.java">org/jpacman/framework/ui/PacmanKeyListener.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  2
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.st.ewi.tudelft.nl/~arie//checkstyle.html#org.jpacman.framework.model.Game.java">org/jpacman/framework/model/Game.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.st.ewi.tudelft.nl/~arie//checkstyle.html#org.jpacman.framework.model.Sprite.java">org/jpacman/framework/model/Sprite.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.st.ewi.tudelft.nl/~arie//checkstyle.html#org.jpacman.framework.ui.IButtonEvents.java">org/jpacman/framework/ui/IButtonEvents.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.st.ewi.tudelft.nl/~arie//checkstyle.html#org.jpacman.framework.factory.IGameFactory.java">org/jpacman/framework/factory/IGameFactory.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.st.ewi.tudelft.nl/~arie//checkstyle.html#org.jpacman.framework.controller.RandomGhostMover.java">org/jpacman/framework/controller/RandomGhostMover.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.st.ewi.tudelft.nl/~arie//checkstyle.html#org.jpacman.framework.controller.IController.java">org/jpacman/framework/controller/IController.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.st.ewi.tudelft.nl/~arie//checkstyle.html#org.jpacman.framework.ui.PacmanInteraction.java">org/jpacman/framework/ui/PacmanInteraction.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  6
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.st.ewi.tudelft.nl/~arie//checkstyle.html#org.jpacman.framework.controller.AbstractGhostMover.java">org/jpacman/framework/controller/AbstractGhostMover.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.st.ewi.tudelft.nl/~arie//checkstyle.html#org.jpacman.framework.ui.ButtonPanel.java">org/jpacman/framework/ui/ButtonPanel.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.st.ewi.tudelft.nl/~arie//checkstyle.html#org.jpacman.framework.model.Ghost.java">org/jpacman/framework/model/Ghost.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.st.ewi.tudelft.nl/~arie//checkstyle.html#org.jpacman.framework.factory.MapParser.java">org/jpacman/framework/factory/MapParser.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  4
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.st.ewi.tudelft.nl/~arie//checkstyle.html#org.jpacman.framework.view.BoardView.java">org/jpacman/framework/view/BoardView.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  4
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.st.ewi.tudelft.nl/~arie//checkstyle.html#org.jpacman.framework.factory.FactoryException.java">org/jpacman/framework/factory/FactoryException.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.st.ewi.tudelft.nl/~arie//checkstyle.html#org.jpacman.framework.view.ImageLoader.java">org/jpacman/framework/view/ImageLoader.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  2
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.st.ewi.tudelft.nl/~arie//checkstyle.html#org.jpacman.framework.ui.IDisposable.java">org/jpacman/framework/ui/IDisposable.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.st.ewi.tudelft.nl/~arie//checkstyle.html#org.jpacman.framework.model.Direction.java">org/jpacman/framework/model/Direction.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.st.ewi.tudelft.nl/~arie//checkstyle.html#org.jpacman.framework.ui.IKeyboardEvents.java">org/jpacman/framework/ui/IKeyboardEvents.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.st.ewi.tudelft.nl/~arie//checkstyle.html#org.jpacman.framework.ui.PointsPanel.java">org/jpacman/framework/ui/PointsPanel.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.st.ewi.tudelft.nl/~arie//checkstyle.html#org.jpacman.framework.model.Player.java">org/jpacman/framework/model/Player.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.st.ewi.tudelft.nl/~arie//checkstyle.html#org.jpacman.framework.view.Animator.java">org/jpacman/framework/view/Animator.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.st.ewi.tudelft.nl/~arie//checkstyle.html#org.jpacman.framework.model.Board.java">org/jpacman/framework/model/Board.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.st.ewi.tudelft.nl/~arie//checkstyle.html#org.jpacman.framework.model.IBoardInspector.java">org/jpacman/framework/model/IBoardInspector.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.st.ewi.tudelft.nl/~arie//checkstyle.html#org.jpacman.framework.factory.DefaultGameFactory.java">org/jpacman/framework/factory/DefaultGameFactory.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.st.ewi.tudelft.nl/~arie//checkstyle.html#org.jpacman.framework.model.IGameInteractor.java">org/jpacman/framework/model/IGameInteractor.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                      </tbody>
+        </table>
+        
+      </description>
+    </item>
+  </channel>
+</rss>
+

@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>BoardTileAtTest xref</title>
+<link type="text/css" rel="stylesheet" href="../../../../../stylesheet.css" />
+</head>
+<body>
+<div id="overview"><a href="../../../../../../testapidocs/org/jpacman/test/framework/model/BoardTileAtTest.html">View Javadoc</a></div><pre>
+
+<a class="jxr_linenumber" name="1" href="#1">1</a>   <strong class="jxr_keyword">package</strong> org.jpacman.test.framework.model;
+<a class="jxr_linenumber" name="2" href="#2">2</a>   
+<a class="jxr_linenumber" name="3" href="#3">3</a>   <strong class="jxr_keyword">import</strong> <strong class="jxr_keyword">static</strong> org.junit.Assert.assertEquals;
+<a class="jxr_linenumber" name="4" href="#4">4</a>   
+<a class="jxr_linenumber" name="5" href="#5">5</a>   <strong class="jxr_keyword">import</strong> java.util.Arrays;
+<a class="jxr_linenumber" name="6" href="#6">6</a>   <strong class="jxr_keyword">import</strong> java.util.Collection;
+<a class="jxr_linenumber" name="7" href="#7">7</a>   
+<a class="jxr_linenumber" name="8" href="#8">8</a>   <strong class="jxr_keyword">import</strong> org.jpacman.framework.model.Board;
+<a class="jxr_linenumber" name="9" href="#9">9</a>   <strong class="jxr_keyword">import</strong> org.jpacman.framework.model.Direction;
+<a class="jxr_linenumber" name="10" href="#10">10</a>  <strong class="jxr_keyword">import</strong> org.jpacman.framework.model.Tile;
+<a class="jxr_linenumber" name="11" href="#11">11</a>  <strong class="jxr_keyword">import</strong> org.junit.Test;
+<a class="jxr_linenumber" name="12" href="#12">12</a>  <strong class="jxr_keyword">import</strong> org.junit.runner.RunWith;
+<a class="jxr_linenumber" name="13" href="#13">13</a>  <strong class="jxr_keyword">import</strong> org.junit.runners.Parameterized;
+<a class="jxr_linenumber" name="14" href="#14">14</a>  <strong class="jxr_keyword">import</strong> org.junit.runners.Parameterized.Parameters;
+<a class="jxr_linenumber" name="15" href="#15">15</a>  
+<a class="jxr_linenumber" name="16" href="#16">16</a>  <em class="jxr_javadoccomment">/**</em>
+<a class="jxr_linenumber" name="17" href="#17">17</a>  <em class="jxr_javadoccomment"> * Test the Board.tileAt method by means of a series of test cases with</em>
+<a class="jxr_linenumber" name="18" href="#18">18</a>  <em class="jxr_javadoccomment"> * Parameterized data.</em>
+<a class="jxr_linenumber" name="19" href="#19">19</a>  <em class="jxr_javadoccomment"> * </em>
+<a class="jxr_linenumber" name="20" href="#20">20</a>  <em class="jxr_javadoccomment"> * @author Arie van Deursen, TU Delft, Feb 10, 2012</em>
+<a class="jxr_linenumber" name="21" href="#21">21</a>  <em class="jxr_javadoccomment"> */</em>
+<a class="jxr_linenumber" name="22" href="#22">22</a>  @RunWith(Parameterized.<strong class="jxr_keyword">class</strong>)
+<a class="jxr_linenumber" name="23" href="#23">23</a>  <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">class</strong> <a href="../../../../../org/jpacman/test/framework/model/BoardTileAtTest.html">BoardTileAtTest</a> {
+<a class="jxr_linenumber" name="24" href="#24">24</a>  
+<a class="jxr_linenumber" name="25" href="#25">25</a>  	<strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">int</strong> startx, starty;
+<a class="jxr_linenumber" name="26" href="#26">26</a>  	<strong class="jxr_keyword">private</strong> Direction dir;
+<a class="jxr_linenumber" name="27" href="#27">27</a>  	<strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">int</strong> nextx, nexty;
+<a class="jxr_linenumber" name="28" href="#28">28</a>  	<strong class="jxr_keyword">private</strong> Board board;
+<a class="jxr_linenumber" name="29" href="#29">29</a>  
+<a class="jxr_linenumber" name="30" href="#30">30</a>  	<strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">final</strong> <strong class="jxr_keyword">int</strong> WIDTH = 10;
+<a class="jxr_linenumber" name="31" href="#31">31</a>  	<strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">final</strong> <strong class="jxr_keyword">int</strong> HEIGHT = 20;
+<a class="jxr_linenumber" name="32" href="#32">32</a>  
+<a class="jxr_linenumber" name="33" href="#33">33</a>  	<strong class="jxr_keyword">public</strong> <a href="../../../../../org/jpacman/test/framework/model/BoardTileAtTest.html">BoardTileAtTest</a>(<strong class="jxr_keyword">int</strong> x, <strong class="jxr_keyword">int</strong> y, Direction d, <strong class="jxr_keyword">int</strong> nx, <strong class="jxr_keyword">int</strong> ny) {
+<a class="jxr_linenumber" name="34" href="#34">34</a>  		startx = x;
+<a class="jxr_linenumber" name="35" href="#35">35</a>  		starty = y;
+<a class="jxr_linenumber" name="36" href="#36">36</a>  		dir = d;
+<a class="jxr_linenumber" name="37" href="#37">37</a>  		nextx = nx;
+<a class="jxr_linenumber" name="38" href="#38">38</a>  		nexty = ny;
+<a class="jxr_linenumber" name="39" href="#39">39</a>  		board = <strong class="jxr_keyword">new</strong> Board(WIDTH, HEIGHT);
+<a class="jxr_linenumber" name="40" href="#40">40</a>  	}
+<a class="jxr_linenumber" name="41" href="#41">41</a>  
+<a class="jxr_linenumber" name="42" href="#42">42</a>  	@Test
+<a class="jxr_linenumber" name="43" href="#43">43</a>  	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> testTileAtDirection() {
+<a class="jxr_linenumber" name="44" href="#44">44</a>  		Tile source = board.tileAt(startx, starty);
+<a class="jxr_linenumber" name="45" href="#45">45</a>  		Tile actual = board.tileAtDirection(source, dir);
+<a class="jxr_linenumber" name="46" href="#46">46</a>  		Tile desired = board.tileAt(nextx, nexty);
+<a class="jxr_linenumber" name="47" href="#47">47</a>  		assertEquals(desired, actual);
+<a class="jxr_linenumber" name="48" href="#48">48</a>  	}
+<a class="jxr_linenumber" name="49" href="#49">49</a>  
+<a class="jxr_linenumber" name="50" href="#50">50</a>  	@Parameters
+<a class="jxr_linenumber" name="51" href="#51">51</a>  	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> Collection&lt;Object[]&gt; data() {
+<a class="jxr_linenumber" name="52" href="#52">52</a>  		Object[][] values = <strong class="jxr_keyword">new</strong> Object[][] {
+<a class="jxr_linenumber" name="53" href="#53">53</a>  				<em class="jxr_comment">// x-axis boundaries, y random inpoints</em>
+<a class="jxr_linenumber" name="54" href="#54">54</a>  				<em class="jxr_comment">// left boundary</em>
+<a class="jxr_linenumber" name="55" href="#55">55</a>  				{ 2, 2, Direction.UP, 2, 1 },
+<a class="jxr_linenumber" name="56" href="#56">56</a>  				{ 2, 2, Direction.DOWN, 2, 3 },
+<a class="jxr_linenumber" name="57" href="#57">57</a>  				{ 2, 2, Direction.LEFT, 1, 2 },
+<a class="jxr_linenumber" name="58" href="#58">58</a>  				{ 2, 2, Direction.RIGHT, 3, 2 },
+<a class="jxr_linenumber" name="59" href="#59">59</a>  				<em class="jxr_comment">// worm holes</em>
+<a class="jxr_linenumber" name="60" href="#60">60</a>  				{ 0, 2, Direction.LEFT, WIDTH - 1, 2 },
+<a class="jxr_linenumber" name="61" href="#61">61</a>  				{ WIDTH - 1, 2, Direction.RIGHT, 0, 2 },
+<a class="jxr_linenumber" name="62" href="#62">62</a>  				{ 2, 0, Direction.UP, 2, HEIGHT - 1 },
+<a class="jxr_linenumber" name="63" href="#63">63</a>  				{ 2, HEIGHT - 1, Direction.DOWN, 2, 0 } };
+<a class="jxr_linenumber" name="64" href="#64">64</a>  		<strong class="jxr_keyword">return</strong> Arrays.asList(values);
+<a class="jxr_linenumber" name="65" href="#65">65</a>  	}
+<a class="jxr_linenumber" name="66" href="#66">66</a>  
+<a class="jxr_linenumber" name="67" href="#67">67</a>  }
+</pre>
+<hr/><div id="footer">This page was automatically generated by <a href="http://maven.apache.org/">Maven</a></div></body>
+</html>
+

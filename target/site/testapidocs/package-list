@@ -1,0 +1,4 @@
+org.jpacman.test.framework.factory
+org.jpacman.test.framework.model
+org.jpacman.test.framework.ui
+org.jpacman.test.framework.view

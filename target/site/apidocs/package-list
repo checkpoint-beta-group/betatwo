@@ -1,0 +1,5 @@
+org.jpacman.framework.controller
+org.jpacman.framework.factory
+org.jpacman.framework.model
+org.jpacman.framework.ui
+org.jpacman.framework.view
