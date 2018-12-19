@@ -43,7 +43,7 @@ public class Animator implements IController {
         timer = new Timer(DELAY,
                 new ActionListener() {
             @Override
-			public void actionPerformed(ActionEvent e) {
+            public void actionPerformed(ActionEvent e) {
                 boardViewer.nextAnimation();
             }
         }
