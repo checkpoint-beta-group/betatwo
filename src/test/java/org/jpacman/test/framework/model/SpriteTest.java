@@ -17,13 +17,17 @@ import org.junit.Test;
 
 /**
  * Test class addressing how sprites occupy or deoccupy tiles.
- * 
  * @author Arie van Deursen, TU Delft, Dec 24, 2011
  */
 public class SpriteTest {
-
+	/**
+	 * @param this is a number
+	 */
 	private Sprite john = new Sprite() {
 	};
+	/**
+	 * @param this is a number
+	 */
 	private Tile center = new Tile(0, 0);
 
 	/**
@@ -39,7 +43,8 @@ public class SpriteTest {
 	 */
 	@Test
 	public void testOccupy() {
-		assertTrue(center.containsSprite(john)); //veranders van true naar false
+		//changes from true to false
+		assertTrue(center.containsSprite(john));
 		assertThat(center.topSprite(), equalTo(john));
 		assertThat(john.getTile(), equalTo(center));
 	}
@@ -87,6 +92,9 @@ public class SpriteTest {
 		assertThat(john, not(occupies(center)));
 	}
 
+	/**
+	 * @Test a Test
+	 */
 	@Test
 	public void testDeoccupy() {
 		john.deoccupy();
@@ -96,25 +104,25 @@ public class SpriteTest {
 	/**
 	 * @param expected
 	 *            The tile the sprite should be on.
-	 * @return A hamcrest matcher telling whether a sprite is the topmost one on
-	 *         a given tile.
+	 * @return A hamcrest matcher telling whether a
+	 * 		sprite is she topmost one on a given tile.
 	 */
 	private static Matcher<Sprite> occupies(final Tile expected) {
 		return new BaseMatcher<Sprite>() {
 			private Tile theTile = expected;
 
 			@Override
-			public boolean matches(Object o) {
+			public boolean matches(final Object o) {
 				if (!(o instanceof Sprite)) {
 					return false;
 				}
 				Sprite theSprite = (Sprite) o;
 				return theSprite.getTile().equals(theTile)
-						&& theTile.topSprite().equals(theSprite);
+				&& theTile.topSprite().equals(theSprite);
 			}
 
 			@Override
-			public void describeTo(Description d) {
+			public void describeTo(final Description d) {
 				d.appendText("sprite occupying tile ");
 				d.appendValue(theTile);
 			}
