@@ -38,7 +38,7 @@ public interface IGameFactory {
 	 * @return A newly created ghost.
 	 */
 	Ghost makeGhost();
-
+	
 	/**
 	 * @return A newly created food sprite.
 	 */
