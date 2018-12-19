@@ -68,7 +68,7 @@ public class PointManager implements IPointInspector {
 	public int getFoodEaten() {
 		return pointsEarned;
 	}
-	
+
 	/**
 	 * @return The total amount of food put in the game.
 	 */

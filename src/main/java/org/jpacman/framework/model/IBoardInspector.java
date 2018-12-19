@@ -28,21 +28,17 @@ public interface IBoardInspector {
 		WALL, 
 		OTHER
 	};
-		
+
 	/**
 	 * @param x 
 	 * @param y 
 	 * @return The sprite at location (x,y).
 	 */
 	Sprite spriteAt(int x, int y);
-	
 	/**
 	 * @param x 
 	 * @param y 
 	 * @return The kind of sprite at location (x,y).
 	 */
 	SpriteType spriteTypeAt(int x, int y);
-	
-	// public Direction directionAt(int x, int y);
-	
 }
