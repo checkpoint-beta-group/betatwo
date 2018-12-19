@@ -28,7 +28,7 @@ public interface IGameFactory {
 	 * @return A new board of requested width and height.
 	 */
 	Board makeBoard(int w, int h);
-	
+
 	/**
 	 * @return A newly created player.
 	 */
