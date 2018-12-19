@@ -9,7 +9,7 @@ public class PointManager implements IPointInspector {
 	
 	private int pointsPutOnBoard = 0;
 	private int pointsEarned = 0;
-	
+
 	/**
 	 * @return True iff points are positive.
 	 */
@@ -17,18 +17,18 @@ public class PointManager implements IPointInspector {
 		return pointsEarned >= 0
 			&& pointsEarned <= pointsPutOnBoard;
 	}
-	
+
 	/**
 	 * While building the game, keep track of the
 	 * total number of points.
 	 * @param delta Points to be added to the game.
 	 */
-	public void addPointsToBoard(int delta) {
+	public void addPointsToBoard(final int delta) {
 		assert delta >= 0;
 		pointsPutOnBoard += delta;
 		assert invariant();
 	}
-	
+
 	/**
 	 * While playing, eat food.
 	 * @param delta Amount of food consumed.
